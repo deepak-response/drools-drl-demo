@@ -6,6 +6,7 @@ public class Order {
 	private String cardType;
 	private int discount;
 	private int price;
+	private String status;
 
 	public String getName() {
 		return name;
@@ -39,4 +40,11 @@ public class Order {
 		this.price = price;
 	}
 
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
 }
